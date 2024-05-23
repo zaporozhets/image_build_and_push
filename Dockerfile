@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends \
+        sudo \
         git \
         python3 \
         python3-pip \
